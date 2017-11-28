@@ -1,0 +1,9 @@
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\obj\Debug\pdfCreate.csprojResolveAssemblyReference.cache
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\obj\Debug\pdfCreate.csproj.CoreCompileInputs.cache
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\bin\Debug\pdfCreate.exe.config
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\bin\Debug\pdfCreate.exe
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\bin\Debug\pdfCreate.pdb
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\bin\Debug\itextsharp.dll
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\bin\Debug\itextsharp.xml
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\obj\Debug\pdfCreate.exe
+C:\Users\jay.kim\source\repos\pdfCreate\pdfCreate\obj\Debug\pdfCreate.pdb
