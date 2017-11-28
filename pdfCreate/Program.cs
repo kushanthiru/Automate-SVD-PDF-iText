@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,8 +23,7 @@ namespace pdfCreate
             string newFileName = "newFile";
             var reader = new PdfReader(templateDir); // Load SVD template
             var fields = reader.AcroFields; // To save time writing out two terms
-            var output = new FileStream(saveDir + newFileName + 
-                ".pdf", FileMode.Create, FileAccess.Write); // New home to the new file
+            var output = new FileStream(saveDir + newFileName + ".pdf", FileMode.Create, FileAccess.Write); // New home to the new file
             var stamper = new PdfStamper(reader, output); // Applies extra content to the PDF document
 
 
@@ -41,7 +40,7 @@ namespace pdfCreate
             var p_checksum = new Phrase("e74e78a36fd4c25717b57efc8b72c5bcc3a2f5ff_TEST");
             var p_tick = new Phrase("x");*/
 
-            string v_productName = "product name";
+            string v_productName = (string) args[0];
             string v_versionMajor = "version major";
             string v_versionMinor = "version minor";
             string v_versionRevision = "versionRevision";
@@ -59,7 +58,7 @@ namespace pdfCreate
             string v_SCMPDHFR = "planDHFRNo";
             string v_SCMPVer = "versionNo";
 
-            string v_DMRProductNo402 = (string) args[0];
+            string v_DMRProductNo402 = 'dddd';
             string v_DMRIdentifier402 = "identifier";
             string v_DMRRevision402 = "revision";
             string v_DMRProductNo401 = "productNo";
