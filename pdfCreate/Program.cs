@@ -59,7 +59,7 @@ namespace pdfCreate
             string v_SCMPDHFR = "planDHFRNo";
             string v_SCMPVer = "versionNo";
 
-            string v_DMRProductNo402 = "productNo";
+            string v_DMRProductNo402 = (string) args[0];
             string v_DMRIdentifier402 = "identifier";
             string v_DMRRevision402 = "revision";
             string v_DMRProductNo401 = "productNo";
